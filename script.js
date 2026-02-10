@@ -58,36 +58,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Parallax effect for background shapes
-let lastScrollY = window.scrollY;
+// Parallax effect for background shapes is now handled by the animation loop below
 
-window.addEventListener('scroll', () => {
-    const scrollY = window.scrollY;
-    const shapes = document.querySelectorAll('.shape');
-    
-    shapes.forEach((shape, index) => {
-        const speed = 0.3 + (index * 0.1); // Different speeds for each shape
-        const yPos = -(scrollY * speed);
-        shape.style.transform = `translateY(${yPos}px)`;
-    });
-    
-    lastScrollY = scrollY;
-}, { passive: true });
-
-// Subtle mouse move effect on hero
-const hero = document.querySelector('.hero');
-if (hero) {
-    hero.addEventListener('mousemove', (e) => {
-        const shapes = document.querySelectorAll('.shape');
-        const mouseX = e.clientX / window.innerWidth;
-        const mouseY = e.clientY / window.innerHeight;
-        
-        shapes.forEach((shape, index) => {
-            const speed = 10 + (index * 5);
-            const x = (mouseX - 0.5) * speed;
-            const y = (mouseY - 0.5) * speed;
-            
-            shape.style.transform = `translate(${x}px, ${y}px)`;
-        });
-    });
-}
+// Hero animations removed

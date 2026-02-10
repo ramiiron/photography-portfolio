@@ -119,77 +119,7 @@ nav.scrolled {
     z-index: 0;
 }
 
-/* Animated Background Shapes */
-.bg-shapes {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: 0;
-    pointer-events: none;
-}
-
-.shape {
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0.08;
-    filter: blur(40px);
-}
-
-.shape-1 {
-    width: 400px;
-    height: 400px;
-    background: var(--soft-gold);
-    top: 10%;
-    left: -10%;
-    animation: float 20s ease-in-out infinite;
-}
-
-.shape-2 {
-    width: 300px;
-    height: 300px;
-    background: var(--muted-olive);
-    top: 60%;
-    right: -5%;
-    animation: float 25s ease-in-out infinite reverse;
-}
-
-.shape-3 {
-    width: 250px;
-    height: 250px;
-    background: var(--clay);
-    bottom: 20%;
-    left: 20%;
-    animation: float 30s ease-in-out infinite;
-    animation-delay: 2s;
-}
-
-.shape-4 {
-    width: 350px;
-    height: 350px;
-    background: var(--soft-gold);
-    top: 30%;
-    right: 15%;
-    animation: float 22s ease-in-out infinite;
-    animation-delay: 4s;
-}
-
-@keyframes float {
-    0%, 100% {
-        transform: translate(0, 0) scale(1);
-    }
-    25% {
-        transform: translate(30px, -30px) scale(1.1);
-    }
-    50% {
-        transform: translate(-20px, 20px) scale(0.9);
-    }
-    75% {
-        transform: translate(20px, 30px) scale(1.05);
-    }
-}
+/* Animated Background Shapes - Removed */
 
 .hero-content {
     text-align: center;
