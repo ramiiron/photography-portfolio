@@ -1,10 +1,10 @@
 :root {
-    --cream: #FAF7F2;
-    --warm-black: #1A1614;
-    --soft-gold: #C9A882;
-    --muted-olive: #8B9173;
-    --clay: #A67C52;
-    --whisper: #E8E4DF;
+    --cream: #FFFFFF;
+    --warm-black: #2A2A2A;
+    --soft-gold: #808080;
+    --muted-olive: #696969;
+    --clay: #555555;
+    --whisper: #F5F5F5;
 }
 
 * {
