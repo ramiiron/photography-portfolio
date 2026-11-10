@@ -27,12 +27,10 @@ photography-portfolio/
 ├── assets/
 │   ├── css/
 │   │   ├── base.css            # Variables de color, tipografía y reset
-│   │   ├── layout.css          # Header, hero, secciones, galerías, FAQ, footer
-│   │   └── editor.css          # Estilos del modo "Cambiar fotos"
+│   │   └── layout.css          # Header, hero, secciones, galerías, FAQ, footer
 │   ├── js/
 │   │   ├── photos.js           # Carga photos.json y pone cada foto en su slot
-│   │   ├── main.js             # Menú móvil, FAQ acordeón, animaciones, año
-│   │   └── editor.js           # Modo editor de fotos sin código
+│   │   └── main.js             # Menú móvil, FAQ acordeón, animaciones, año
 │   └── images/
 │       └── slots/              # Una foto por slot, con nombre fijo (home-hero.jpg, etc.)
 ├── tools/
@@ -49,28 +47,17 @@ tiene una sola responsabilidad, como se ve arriba.
 ## 📷 Cómo cambiar las fotos (sin tocar código)
 
 Cada foto del sitio ocupa un **slot** con nombre fijo. La lista completa de
-slots está en `data/photos.json` y también se ve en la propia página usando el
-modo editor. Hay 3 formas de cambiar fotos, de más simple a más completa:
+slots está en `data/photos.json`. El sitio público no tiene ningún botón de
+edición: los cambios se hacen solo desde el repo (acceso privado de Ramiro).
 
-### Forma 1 — Desde la página (vista previa, solo en tu navegador)
-
-1. Abre el sitio y baja al final: toca **«Cambiar fotos»** (en el pie de página).
-   También sirve agregar `?edit=1` al link, ej. `…/photography-portfolio/?edit=1`.
-2. Todas las fotos quedan marcadas con su nombre de slot. Toca la foto que
-   quieres cambiar.
-3. Sube una foto desde tu teléfono/computador, **o** pega el link de una foto
-   ya subida. La página se actualiza al instante.
-4. Estos cambios se guardan **solo en ese navegador** (sirven para probar cómo
-   se ve). Con «Restablecer todo» vuelves a las fotos publicadas.
-
-### Forma 2 — Publicar para todos, reemplazando el archivo (recomendada)
+### Forma 1 — Reemplazar el archivo del slot (recomendada)
 
 Para que el cambio lo vean todos, reemplaza el archivo del slot en GitHub
 **con el mismo nombre** (no hay que editar ningún código):
 
 1. En este repo entra a `assets/images/slots/`.
-2. Anota el nombre exacto del slot (ej. `family-gallery-3.jpg` — lo ves con el
-   modo editor de la Forma 1).
+2. Anota el nombre exacto del slot (ej. `family-gallery-3.jpg` — la lista
+   completa está en `data/photos.json`).
 3. En GitHub: `Add file → Upload files`, sube tu foto **renombrada con ese
    mismo nombre exacto** y confirma el commit. Si GitHub pide confirmación por
    reemplazo, acéptala.
@@ -79,15 +66,12 @@ Para que el cambio lo vean todos, reemplaza el archivo del slot en GitHub
 > Consejo: exporta tus fotos a máx. 1600 px por el lado mayor, JPG calidad ~85%,
 > para que la página cargue rápido.
 
-### Forma 3 — Usar un link externo (photos.json)
+### Forma 2 — Usar un link externo (photos.json)
 
 Si la foto está subida en otro servicio con link directo a la imagen:
 
-1. Edita `data/photos.json` desde GitHub (botón del lápiz, sin saber código:
-   es solo cambiar el valor de `"src"` del slot por tu link).
-2. O usa la Forma 1 pegando el link y luego pulsa **«Descargar photos.json»**:
-   reemplaza el archivo `data/photos.json` del repo por el descargado
-   (`Add file → Upload files`).
+Edita `data/photos.json` desde GitHub (botón del lápiz, sin saber código:
+es solo cambiar el valor de `"src"` del slot por tu link) y confirma el commit.
 
 ### Slots disponibles (26)
 
@@ -99,8 +83,9 @@ Si la foto está subida en otro servicio con link directo a la imagen:
   `portraits-newborn`, `portraits-senior`, `portraits-gallery-1` a
   `portraits-gallery-4`
 
-Las fotos que trae el sitio hoy son **placeholders rotulados** (dicen el nombre
-del slot): son los espacios reservados para reemplazar por el trabajo real.
+Desde el 2026-11-09 los 26 slots tienen las **fotos reales** elegidas por
+Ramiro (su álbum «Muse» de Google Photos + editadas de Lightroom), optimizadas
+para web. El historial de placeholders quedó en el commit inicial del rediseño.
 
 ---
 
@@ -116,7 +101,7 @@ python3 -m http.server 8000
 
 (No abras el `index.html` con doble clic: `data/photos.json` necesita el
 servidor local para cargar; sin servidor el sitio usa las rutas por defecto
-de cada foto y se ve igual, pero el modo editor necesita el JSON.)
+de cada foto y se ve casi igual.)
 
 ## Cómo se publica
 

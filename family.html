@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/layout.css">
-  <link rel="stylesheet" href="assets/css/editor.css">
 </head>
 <body>
 
@@ -169,33 +168,10 @@
       <a href="https://www.instagram.com/ramirob.ph" target="_blank" rel="noopener">Instagram</a>
     </nav>
     <p class="footer-small">Family &amp; portrait photography in Salt Lake City, South Jordan and Utah County.</p>
-    <p class="footer-small">&copy; <span id="year"></span> Ramiro B. Photography. All rights reserved. &middot; <button type="button" class="edit-link" id="edit-photos-btn">Cambiar fotos</button></p>
+    <p class="footer-small">&copy; <span id="year"></span> Ramiro B. Photography. All rights reserved.</p>
   </footer>
-
-  <div class="editor-bar">
-    <span><strong>Modo editor:</strong> haz clic en cualquier foto para cambiarla. Los cambios se ven solo en este navegador.</span>
-    <button type="button" id="editor-download">Descargar photos.json</button>
-    <button type="button" class="ghost" id="editor-reset-all">Restablecer todo</button>
-    <button type="button" class="ghost" id="editor-exit">Salir</button>
-  </div>
-  <div class="editor-dialog" id="editor-dialog">
-    <div class="editor-card">
-      <h3>Cambiar esta foto</h3>
-      <p id="editor-slot-name"></p>
-      <label for="editor-file">Subir una foto desde tu dispositivo</label>
-      <input type="file" id="editor-file" accept="image/*">
-      <label for="editor-url">O pegar el link de la foto</label>
-      <input type="url" id="editor-url" placeholder="https://...">
-      <div class="editor-actions">
-        <button type="button" class="btn" id="editor-apply-url">Usar link</button>
-        <button type="button" class="btn btn-light" id="editor-reset-slot">Restablecer</button>
-        <button type="button" class="btn btn-light" id="editor-cancel">Cancelar</button>
-      </div>
-    </div>
-  </div>
 
   <script src="assets/js/photos.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/editor.js"></script>
 </body>
 </html>
