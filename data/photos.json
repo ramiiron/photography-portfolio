@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "slots": {
+    "home-hero": {
+      "page": "home",
+      "label": "Home · Foto principal",
+      "src": "assets/images/slots/home-hero.jpg",
+      "alt": "Familia caminando en luz dorada en Utah"
+    },
+    "home-about": {
+      "page": "home",
+      "label": "Home · Retrato de Ramiro",
+      "src": "assets/images/slots/home-about.jpg",
+      "alt": "Retrato de Ramiro, fotógrafo en Utah"
+    },
+    "home-family": {
+      "page": "home",
+      "label": "Home · Tarjeta Family",
+      "src": "assets/images/slots/home-family.jpg",
+      "alt": "Sesión familiar al aire libre en Utah"
+    },
+    "home-portraits": {
+      "page": "home",
+      "label": "Home · Tarjeta Portraits",
+      "src": "assets/images/slots/home-portraits.jpg",
+      "alt": "Retrato editorial en luz natural"
+    },
+    "home-gallery-1": {
+      "page": "home",
+      "label": "Home · Galería 1",
+      "src": "assets/images/slots/home-gallery-1.jpg",
+      "alt": "Retrato familiar cálido en Utah"
+    },
+    "home-gallery-2": {
+      "page": "home",
+      "label": "Home · Galería 2",
+      "src": "assets/images/slots/home-gallery-2.jpg",
+      "alt": "Retrato de pareja en luz dorada"
+    },
+    "home-gallery-3": {
+      "page": "home",
+      "label": "Home · Galería 3",
+      "src": "assets/images/slots/home-gallery-3.jpg",
+      "alt": "Retrato de maternidad al aire libre"
+    },
+    "home-gallery-4": {
+      "page": "home",
+      "label": "Home · Galería 4",
+      "src": "assets/images/slots/home-gallery-4.jpg",
+      "alt": "Niños jugando en sesión familiar"
+    },
+    "family-hero": {
+      "page": "family",
+      "label": "Family · Foto principal",
+      "src": "assets/images/slots/family-hero.jpg",
+      "alt": "Familia unida en un campo al atardecer en Utah"
+    },
+    "family-story-1": {
+      "page": "family",
+      "label": "Family · Historia 1",
+      "src": "assets/images/slots/family-story-1.jpg",
+      "alt": "Padres abrazando a su hijo en sesión familiar"
+    },
+    "family-story-2": {
+      "page": "family",
+      "label": "Family · Historia 2",
+      "src": "assets/images/slots/family-story-2.jpg",
+      "alt": "Madre e hija riendo en sesión familiar"
+    },
+    "family-gallery-1": {
+      "page": "family",
+      "label": "Family · Galería 1",
+      "src": "assets/images/slots/family-gallery-1.jpg",
+      "alt": "Retrato familiar en las montañas de Utah"
+    },
+    "family-gallery-2": {
+      "page": "family",
+      "label": "Family · Galería 2",
+      "src": "assets/images/slots/family-gallery-2.jpg",
+      "alt": "Hermanos jugando en el campo"
+    },
+    "family-gallery-3": {
+      "page": "family",
+      "label": "Family · Galería 3",
+      "src": "assets/images/slots/family-gallery-3.jpg",
+      "alt": "Familia caminando de la mano al atardecer"
+    },
+    "family-gallery-4": {
+      "page": "family",
+      "label": "Family · Galería 4",
+      "src": "assets/images/slots/family-gallery-4.jpg",
+      "alt": "Retrato familiar en casa, luz natural"
+    },
+    "family-gallery-5": {
+      "page": "family",
+      "label": "Family · Galería 5",
+      "src": "assets/images/slots/family-gallery-5.jpg",
+      "alt": "Padre levantando a su bebé en el campo"
+    },
+    "family-gallery-6": {
+      "page": "family",
+      "label": "Family · Galería 6",
+      "src": "assets/images/slots/family-gallery-6.jpg",
+      "alt": "Familia extendida reunida en Utah"
+    },
+    "portraits-hero": {
+      "page": "portraits",
+      "label": "Portraits · Foto principal",
+      "src": "assets/images/slots/portraits-hero.jpg",
+      "alt": "Retrato editorial en Salt Lake City"
+    },
+    "portraits-couples": {
+      "page": "portraits",
+      "label": "Portraits · Parejas",
+      "src": "assets/images/slots/portraits-couples.jpg",
+      "alt": "Pareja caminando de la mano al atardecer"
+    },
+    "portraits-maternity": {
+      "page": "portraits",
+      "label": "Portraits · Maternidad",
+      "src": "assets/images/slots/portraits-maternity.jpg",
+      "alt": "Sesión de maternidad en luz suave"
+    },
+    "portraits-newborn": {
+      "page": "portraits",
+      "label": "Portraits · Newborn",
+      "src": "assets/images/slots/portraits-newborn.jpg",
+      "alt": "Bebé recién nacido descansando en casa"
+    },
+    "portraits-senior": {
+      "page": "portraits",
+      "label": "Portraits · Graduación",
+      "src": "assets/images/slots/portraits-senior.jpg",
+      "alt": "Retrato de graduación en el Capitolio de Utah"
+    },
+    "portraits-gallery-1": {
+      "page": "portraits",
+      "label": "Portraits · Galería 1",
+      "src": "assets/images/slots/portraits-gallery-1.jpg",
+      "alt": "Retrato individual en luz natural"
+    },
+    "portraits-gallery-2": {
+      "page": "portraits",
+      "label": "Portraits · Galería 2",
+      "src": "assets/images/slots/portraits-gallery-2.jpg",
+      "alt": "Retrato de pareja en el centro de Salt Lake City"
+    },
+    "portraits-gallery-3": {
+      "page": "portraits",
+      "label": "Portraits · Galería 3",
+      "src": "assets/images/slots/portraits-gallery-3.jpg",
+      "alt": "Retrato de maternidad en el campo"
+    },
+    "portraits-gallery-4": {
+      "page": "portraits",
+      "label": "Portraits · Galería 4",
+      "src": "assets/images/slots/portraits-gallery-4.jpg",
+      "alt": "Retrato personal con luz dorada"
+    }
+  }
+}

@@ -1,163 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramiro B. Photography | Wedding & Portrait Photographer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramiro B. Photography | Family &amp; Portrait Photographer in Utah</title>
+  <meta name="description" content="Warm, timeless family and portrait photography in Salt Lake City and Utah County. Family sessions, maternity, newborn, couples and graduation portraits by Ramiro B. Photography.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/editor.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="nav">
-        <div class="logo">RAMIRO Bugueno</div>
-        <div class="menu-toggle" id="menuToggle">
-            <span></span>
-            <span></span>
-            <span></span>
+
+  <header class="site-header">
+    <div class="header-in">
+      <a class="logo" href="index.html">Ramiro B. Photography<small>Utah Portrait Photographer</small></a>
+      <button class="nav-toggle" aria-label="Open menu">&#9776;</button>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="family.html">Family</a>
+        <a href="portraits.html">Portraits</a>
+        <a href="#contact">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO · slot: home-hero -->
+  <section class="hero">
+    <div class="hero-media photo" data-photo-slot="home-hero">
+      <img src="assets/images/slots/home-hero.jpg" alt="Familia caminando en luz dorada en Utah">
+    </div>
+    <div class="hero-text">
+      <p class="eyebrow">Salt Lake City · Utah</p>
+      <h1>Warm, timeless portraits</h1>
+      <p>Family and portrait photography for the seasons of life you never want to forget.</p>
+      <a class="btn" href="#contact">Book your session</a>
+    </div>
+  </section>
+
+  <div class="words">
+    <span>Authentic</span><span>Effortless</span><span>Timeless</span>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section">
+    <div class="wrap two-col">
+      <figure class="photo reveal" data-photo-slot="home-about">
+        <img src="assets/images/slots/home-about.jpg" alt="Retrato de Ramiro, fotógrafo en Utah">
+      </figure>
+      <div class="reveal">
+        <p class="eyebrow">Nice to meet you</p>
+        <h2>Hi, I&rsquo;m Ramiro</h2>
+        <p class="lead" style="margin-top:1rem;">I photograph families and portraits across Salt Lake and Utah counties, with a calm and patient approach that helps everyone relax in front of the camera.</p>
+        <p>No stiff posing and no rushing. We move, we play, and we pause when the light gets beautiful &mdash; that is where the honest moments live. The result is a gallery that feels like your family, not like a performance.</p>
+        <p>Based in South Jordan, I shoot outdoors in Utah&rsquo;s golden light, in your home, or wherever your story feels most at home.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section section-alt">
+    <div class="wrap">
+      <div class="center narrow reveal">
+        <p class="eyebrow">Services</p>
+        <h2>Two things, done with care</h2>
+        <p class="lead" style="margin-top:0.8rem;">I keep my work focused: families, and portraits in every season of life.</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <figure class="photo" data-photo-slot="home-family">
+            <img src="assets/images/slots/home-family.jpg" alt="Sesión familiar al aire libre en Utah">
+          </figure>
+          <div class="card-body">
+            <h3>Family</h3>
+            <p>Relaxed, connection-first sessions for families of every shape and season &mdash; little kids, grandparents and pets included.</p>
+            <a class="card-link" href="family.html">Explore family sessions</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <figure class="photo" data-photo-slot="home-portraits">
+            <img src="assets/images/slots/home-portraits.jpg" alt="Retrato editorial en luz natural">
+          </figure>
+          <div class="card-body">
+            <h3>Portraits</h3>
+            <p>Individual portraits, couples, maternity, newborn and graduation &mdash; a portrait for wherever life has you right now.</p>
+            <a class="card-link" href="portraits.html">Explore portraits</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY STRIP -->
+  <section class="section">
+    <div class="wrap">
+      <div class="center reveal">
+        <p class="eyebrow">Recent work</p>
+        <h2>Moments worth keeping</h2>
+      </div>
+      <div class="gallery">
+        <figure class="photo reveal" data-photo-slot="home-gallery-1"><img src="assets/images/slots/home-gallery-1.jpg" alt="Retrato familiar cálido en Utah"></figure>
+        <figure class="photo reveal" data-photo-slot="home-gallery-2"><img src="assets/images/slots/home-gallery-2.jpg" alt="Retrato de pareja en luz dorada"></figure>
+        <figure class="photo reveal" data-photo-slot="home-gallery-3"><img src="assets/images/slots/home-gallery-3.jpg" alt="Retrato de maternidad al aire libre"></figure>
+        <figure class="photo reveal" data-photo-slot="home-gallery-4"><img src="assets/images/slots/home-gallery-4.jpg" alt="Niños jugando en sesión familiar"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-alt">
+    <div class="wrap center">
+      <p class="eyebrow">The experience</p>
+      <h2>Simple from start to finish</h2>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-num">01</div>
+          <h3>Say hello</h3>
+          <p>Send me a message on Instagram and tell me about your family or your idea. We pick a date, a location and a plan that fits you.</p>
         </div>
-        <ul class="nav-links" id="navLinks">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </ul>
+        <div class="step reveal">
+          <div class="step-num">02</div>
+          <h3>Your session</h3>
+          <p>A relaxed session with gentle direction. I will guide you the whole way, so you never have to wonder what to do.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">03</div>
+          <h3>Your gallery</h3>
+          <p>You receive a curated online gallery of edited, high-resolution images, ready to download, share and print.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta" id="contact">
+    <div class="wrap reveal">
+      <p class="eyebrow">Ready when you are</p>
+      <h2>Let&rsquo;s create something beautiful</h2>
+      <p>Booking begins with a simple message. Tell me what you are dreaming of, and we will plan it together.</p>
+      <a class="btn" href="https://www.instagram.com/ramirob.ph" target="_blank" rel="noopener">Message me on Instagram</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <a class="logo" href="index.html">Ramiro B. Photography<small>Utah Portrait Photographer</small></a>
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="family.html">Family</a>
+      <a href="portraits.html">Portraits</a>
+      <a href="https://www.instagram.com/ramirob.ph" target="_blank" rel="noopener">Instagram</a>
     </nav>
+    <p class="footer-small">Family &amp; portrait photography in Salt Lake City, South Jordan and Utah County.</p>
+    <p class="footer-small">&copy; <span id="year"></span> Ramiro B. Photography. All rights reserved. &middot; <button type="button" class="edit-link" id="edit-photos-btn">Cambiar fotos</button></p>
+  </footer>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-bg"></div>
-        <div class="hero-content">
-            <h1>Capturing Love <strong>&amp; Moments</strong></h1>
-            <p>Wedding &amp; Portrait Photography</p>
-            <a href="#contact" class="cta-button">Book Your Session</a>
-        </div>
-    </section>
+  <!-- Barra y ventana del modo editor (ver assets/js/editor.js) -->
+  <div class="editor-bar">
+    <span><strong>Modo editor:</strong> haz clic en cualquier foto para cambiarla. Los cambios se ven solo en este navegador.</span>
+    <button type="button" id="editor-download">Descargar photos.json</button>
+    <button type="button" class="ghost" id="editor-reset-all">Restablecer todo</button>
+    <button type="button" class="ghost" id="editor-exit">Salir</button>
+  </div>
+  <div class="editor-dialog" id="editor-dialog">
+    <div class="editor-card">
+      <h3>Cambiar esta foto</h3>
+      <p id="editor-slot-name"></p>
+      <label for="editor-file">Subir una foto desde tu dispositivo</label>
+      <input type="file" id="editor-file" accept="image/*">
+      <label for="editor-url">O pegar el link de la foto</label>
+      <input type="url" id="editor-url" placeholder="https://...">
+      <div class="editor-actions">
+        <button type="button" class="btn" id="editor-apply-url">Usar link</button>
+        <button type="button" class="btn btn-light" id="editor-reset-slot">Restablecer</button>
+        <button type="button" class="btn btn-light" id="editor-cancel">Cancelar</button>
+      </div>
+    </div>
+  </div>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <!-- Floating decorative elements -->
-        <div class="floating-elements">
-            <div class="float-circle float-1"></div>
-            <div class="float-circle float-2"></div>
-        </div>
-        <div class="about-image">
-            <div class="about-image-placeholder">Your Photo Here</div>
-        </div>
-        <div class="about-content">
-            <div class="section-label">About Me</div>
-            <h2>Hello, I'm Ramiro</h2>
-            <p>I'm a passionate photographer dedicated to capturing the authentic moments that tell your unique story. With an eye for detail and a heart for emotion, I specialize in creating timeless images that you'll treasure forever.</p>
-            <p>Every wedding, every portrait session is a new adventure. I believe in the beauty of genuine moments, the warmth of natural light, and the power of photography to freeze time and preserve memories.</p>
-            <p>Let's create something beautiful together.</p>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section class="portfolio" id="portfolio">
-        <!-- Decorative lines -->
-        <div class="decorative-lines">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-        </div>
-        <div class="portfolio-header">
-            <div class="section-label">Portfolio</div>
-            <h2>Recent Work</h2>
-            <p>A glimpse into the stories I've had the honor to capture</p>
-        </div>
-        <div class="portfolio-grid">
-            <div class="portfolio-item">
-                <div class="portfolio-placeholder">Wedding 01</div>
-                <div class="portfolio-overlay">
-                    <h3>Sarah & James</h3>
-                    <p>Garden Wedding</p>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-placeholder">Wedding 02</div>
-                <div class="portfolio-overlay">
-                    <h3>Maria & David</h3>
-                    <p>Beach Ceremony</p>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-placeholder">Portrait 01</div>
-                <div class="portfolio-overlay">
-                    <h3>The Anderson Family</h3>
-                    <p>Family Portrait</p>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-placeholder">Wedding 03</div>
-                <div class="portfolio-overlay">
-                    <h3>Emma & Michael</h3>
-                    <p>Rustic Venue</p>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-placeholder">Portrait 02</div>
-                <div class="portfolio-overlay">
-                    <h3>Maternity Session</h3>
-                    <p>Outdoor Shoot</p>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-placeholder">Wedding 04</div>
-                <div class="portfolio-overlay">
-                    <h3>Lisa & Robert</h3>
-                    <p>City Celebration</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services">
-        <div class="services-header">
-            <div class="section-label">Services</div>
-            <h2>What I Offer</h2>
-        </div>
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon">♡</div>
-                <h3>Weddings</h3>
-                <p>Complete wedding day coverage, from getting ready to the last dance. Capturing every precious moment of your special day with artistry and care.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">◆</div>
-                <h3>Portraits</h3>
-                <p>Individual, couple, family, and maternity sessions. Timeless portraits that reflect your personality and celebrate life's beautiful moments.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">✦</div>
-                <h3>Engagements</h3>
-                <p>Romantic engagement sessions in stunning locations. Perfect for save-the-dates, wedding websites, or simply celebrating your love story.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <h2>Let's Create Together</h2>
-        <p>Ready to tell your story?</p>
-        <div class="contact-buttons">
-            <a href="https://www.instagram.com/ramirob.ph" class="contact-button primary" target="_blank">Instagram</a>
-            <a href="mailto:hello@ramirobph.com" class="contact-button">Email Me</a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="social-links">
-            <a href="https://www.instagram.com/ramirob.ph" target="_blank">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">Pinterest</a>
-        </div>
-        <p>&copy; 2026 Ramiro B. Photography. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <script src="assets/js/photos.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/editor.js"></script>
 </body>
 </html>
