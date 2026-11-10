@@ -22,17 +22,22 @@ photography-portfolio/
 ├── index.html                  # Home
 ├── family.html                 # Página Family
 ├── portraits.html              # Página Portraits
+├── gallery.html                # Galería completa con filtros por categoría
 ├── data/
-│   └── photos.json             # ÚNICA lista de fotos del sitio (slot → archivo/link)
+│   ├── photos.json             # ÚNICA lista de fotos de las páginas (slot → archivo)
+│   └── gallery.json            # Lista de la galería (archivo → categoría + alt)
 ├── assets/
 │   ├── css/
 │   │   ├── base.css            # Variables de color, tipografía y reset
+│   │   ├── gallery.css         # Filtros, grilla masonry y lightbox de la galería
 │   │   └── layout.css          # Header, hero, secciones, galerías, FAQ, footer
 │   ├── js/
 │   │   ├── photos.js           # Carga photos.json y pone cada foto en su slot
+│   │   ├── gallery.js          # Carga gallery.json, filtros y lightbox
 │   │   └── main.js             # Menú móvil, FAQ acordeón, animaciones, año
 │   └── images/
-│       └── slots/              # Una foto por slot, con nombre fijo (home-hero.jpg, etc.)
+│       ├── slots/              # Una foto por slot, con nombre fijo (home-hero.jpg, etc.)
+│       └── gallery/            # Fotos de la galería, por categoría (family-01.jpg, etc.)
 ├── tools/
 │   └── generate_placeholders.py  # Regenera las fotos placeholder y photos.json
 ├── LICENSE
@@ -72,6 +77,15 @@ Si la foto está subida en otro servicio con link directo a la imagen:
 
 Edita `data/photos.json` desde GitHub (botón del lápiz, sin saber código:
 es solo cambiar el valor de `"src"` del slot por tu link) y confirma el commit.
+
+
+### La galería (gallery.html)
+
+La página **Gallery** muestra el portafolio completo con filtros por categoría
+(Family, Kids, Couples, Maternity, Newborn, Portraits, Graduation) y lightbox.
+Su data vive en `data/gallery.json` y sus fotos en `assets/images/gallery/`
+(máx. 1400 px, JPG ~84%). Para agregar una foto: súbela a esa carpeta con el
+nombre `<categoria>-NN.jpg` y agrega su entrada en `gallery.json`.
 
 ### Slots disponibles (26)
 

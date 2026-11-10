@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Ramiro B. Photography — Family &amp; Portraits in Utah</title>
+  <meta name="description" content="Full gallery of family, kids, couples, maternity, newborn, portrait and graduation photography by Ramiro B. Photography in Utah.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-in">
+      <a class="logo" href="index.html">Ramiro B. Photography<small>Utah Portrait Photographer</small></a>
+      <button class="nav-toggle" aria-label="Open menu">&#9776;</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="family.html">Family</a>
+        <a href="portraits.html">Portraits</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="index.html#contact">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <p class="eyebrow">Portfolio</p>
+    <h1>Gallery</h1>
+    <p>Every season of life, in Utah&rsquo;s golden light. Filter by category, and click any photo to see it up close.</p>
+  </section>
+
+  <div class="filters" id="gallery-filters"></div>
+  <p class="gallery-count" id="gallery-count"></p>
+
+  <main class="masonry" id="gallery-grid"></main>
+
+  <!-- CTA -->
+  <section class="section cta" id="contact">
+    <div class="wrap reveal">
+      <p class="eyebrow">Ready when you are</p>
+      <h2>Let&rsquo;s create something beautiful</h2>
+      <p>Booking begins with a simple message. Tell me what you are dreaming of, and we will plan it together.</p>
+      <a class="btn" href="https://www.instagram.com/ramirob.ph" target="_blank" rel="noopener">Message me on Instagram</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <a class="logo" href="index.html">Ramiro B. Photography<small>Utah Portrait Photographer</small></a>
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="family.html">Family</a>
+      <a href="portraits.html">Portraits</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="https://www.instagram.com/ramirob.ph" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+    <p class="footer-small">Family &amp; portrait photography in Salt Lake City, South Jordan and Utah County.</p>
+    <p class="footer-small">&copy; <span id="year"></span> Ramiro B. Photography. All rights reserved.</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <figure class="lightbox" id="lightbox" role="dialog" aria-label="Photo viewer">
+    <button type="button" class="lb-btn lb-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <button type="button" class="lb-btn lb-prev" id="lightbox-prev" aria-label="Previous photo">&#8249;</button>
+    <img id="lightbox-img" src="" alt="">
+    <button type="button" class="lb-btn lb-next" id="lightbox-next" aria-label="Next photo">&#8250;</button>
+    <figcaption id="lightbox-caption"></figcaption>
+    <span class="lb-counter" id="lightbox-counter"></span>
+  </figure>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/gallery.js"></script>
+</body>
+</html>

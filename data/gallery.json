@@ -1,0 +1,309 @@
+{
+  "categories": [
+    {
+      "id": "family",
+      "label": "Family"
+    },
+    {
+      "id": "kids",
+      "label": "Kids"
+    },
+    {
+      "id": "couples",
+      "label": "Couples"
+    },
+    {
+      "id": "maternity",
+      "label": "Maternity"
+    },
+    {
+      "id": "newborn",
+      "label": "Newborn"
+    },
+    {
+      "id": "portraits",
+      "label": "Portraits"
+    },
+    {
+      "id": "graduation",
+      "label": "Graduation"
+    }
+  ],
+  "photos": [
+    {
+      "src": "assets/images/gallery/family-01.jpg",
+      "cat": "family",
+      "alt": "Padres levantando a sus hijos junto al lago en luz dorada"
+    },
+    {
+      "src": "assets/images/gallery/family-02.jpg",
+      "cat": "family",
+      "alt": "Familia de cuatro en pasto alto con las montañas detrás"
+    },
+    {
+      "src": "assets/images/gallery/family-03.jpg",
+      "cat": "family",
+      "alt": "Familia sentada junta en pasto alto de otoño"
+    },
+    {
+      "src": "assets/images/gallery/family-04.jpg",
+      "cat": "family",
+      "alt": "Familia de cuatro bajo un árbol amarillo de otoño"
+    },
+    {
+      "src": "assets/images/gallery/family-05.jpg",
+      "cat": "family",
+      "alt": "Padres sonriendo con su bebé junto al lago"
+    },
+    {
+      "src": "assets/images/gallery/family-06.jpg",
+      "cat": "family",
+      "alt": "Madre e hija abrazándose en pasto dorado"
+    },
+    {
+      "src": "assets/images/gallery/family-07.jpg",
+      "cat": "family",
+      "alt": "Padres mirando a su bebé durante la sesión"
+    },
+    {
+      "src": "assets/images/gallery/family-08.jpg",
+      "cat": "family",
+      "alt": "Hermano mayor abrazando a su hermanito bebé"
+    },
+    {
+      "src": "assets/images/gallery/family-09.jpg",
+      "cat": "family",
+      "alt": "Padre con su hijo a caballito, ambos riendo"
+    },
+    {
+      "src": "assets/images/gallery/kids-01.jpg",
+      "cat": "kids",
+      "alt": "Niña con vestido ocre en pasto alto, montañas detrás"
+    },
+    {
+      "src": "assets/images/gallery/kids-02.jpg",
+      "cat": "kids",
+      "alt": "Niña a contraluz tomada de la mano al atardecer"
+    },
+    {
+      "src": "assets/images/gallery/kids-03.jpg",
+      "cat": "kids",
+      "alt": "Hermana abrazando a su hermano, en blanco y negro"
+    },
+    {
+      "src": "assets/images/gallery/kids-04.jpg",
+      "cat": "kids",
+      "alt": "Bebé con suéter naranjo entre hojas de otoño"
+    },
+    {
+      "src": "assets/images/gallery/kids-05.jpg",
+      "cat": "kids",
+      "alt": "Niña equilibrando libros con una manzana sobre su cabeza"
+    },
+    {
+      "src": "assets/images/gallery/kids-06.jpg",
+      "cat": "kids",
+      "alt": "Niña con moño amarillo sosteniendo libros y una manzana"
+    },
+    {
+      "src": "assets/images/gallery/kids-07.jpg",
+      "cat": "kids",
+      "alt": "Niña asomándose sobre una pila de libros"
+    },
+    {
+      "src": "assets/images/gallery/kids-08.jpg",
+      "cat": "kids",
+      "alt": "Niña apoyada sonriendo sobre una pila de libros"
+    },
+    {
+      "src": "assets/images/gallery/kids-09.jpg",
+      "cat": "kids",
+      "alt": "Niña leyendo bajo un árbol en luz dorada"
+    },
+    {
+      "src": "assets/images/gallery/kids-10.jpg",
+      "cat": "kids",
+      "alt": "Niña mirando sobre un libro amarillo abierto"
+    },
+    {
+      "src": "assets/images/gallery/kids-11.jpg",
+      "cat": "kids",
+      "alt": "Niña entre pastos dorados en otoño"
+    },
+    {
+      "src": "assets/images/gallery/kids-12.jpg",
+      "cat": "kids",
+      "alt": "Retrato de niña con luz dorada entre pastos"
+    },
+    {
+      "src": "assets/images/gallery/kids-13.jpg",
+      "cat": "kids",
+      "alt": "Niño riendo entre pastos altos con bosque detrás"
+    },
+    {
+      "src": "assets/images/gallery/kids-14.jpg",
+      "cat": "kids",
+      "alt": "Niña sonriendo con montañas de otoño detrás"
+    },
+    {
+      "src": "assets/images/gallery/kids-15.jpg",
+      "cat": "kids",
+      "alt": "Niña con vestido navideño sosteniendo un arbolito"
+    },
+    {
+      "src": "assets/images/gallery/kids-16.jpg",
+      "cat": "kids",
+      "alt": "Niño con corbatín sosteniendo un adorno navideño dorado"
+    },
+    {
+      "src": "assets/images/gallery/kids-17.jpg",
+      "cat": "kids",
+      "alt": "Niño con camisa a cuadros sonriendo en el parque"
+    },
+    {
+      "src": "assets/images/gallery/couples-01.jpg",
+      "cat": "couples",
+      "alt": "Pareja frente a frente bajo hojas amarillas de otoño"
+    },
+    {
+      "src": "assets/images/gallery/couples-02.jpg",
+      "cat": "couples",
+      "alt": "Pareja joven sonriendo junto al lago"
+    },
+    {
+      "src": "assets/images/gallery/maternity-01.jpg",
+      "cat": "maternity",
+      "alt": "Futura mamá con vestido celeste sosteniendo margaritas"
+    },
+    {
+      "src": "assets/images/gallery/maternity-02.jpg",
+      "cat": "maternity",
+      "alt": "Detalle de la guatita con ramo de margaritas"
+    },
+    {
+      "src": "assets/images/gallery/maternity-03.jpg",
+      "cat": "maternity",
+      "alt": "Futura mamá de perfil entre follaje verde"
+    },
+    {
+      "src": "assets/images/gallery/maternity-04.jpg",
+      "cat": "maternity",
+      "alt": "Futura mamá apoyada en una baranda de madera"
+    },
+    {
+      "src": "assets/images/gallery/maternity-05.jpg",
+      "cat": "maternity",
+      "alt": "Futura mamá mirando su guatita junto a la baranda"
+    },
+    {
+      "src": "assets/images/gallery/maternity-06.jpg",
+      "cat": "maternity",
+      "alt": "Futura mamá sonriendo entre el follaje"
+    },
+    {
+      "src": "assets/images/gallery/newborn-01.jpg",
+      "cat": "newborn",
+      "alt": "Bebé recién nacido durmiendo envuelto en tejido azul"
+    },
+    {
+      "src": "assets/images/gallery/newborn-02.jpg",
+      "cat": "newborn",
+      "alt": "Primer plano de bebé recién nacido durmiendo"
+    },
+    {
+      "src": "assets/images/gallery/portraits-01.jpg",
+      "cat": "portraits",
+      "alt": "Hombre riendo junto al lago al atardecer"
+    },
+    {
+      "src": "assets/images/gallery/portraits-02.jpg",
+      "cat": "portraits",
+      "alt": "Hombre con polerón blanco apoyado junto al lago"
+    },
+    {
+      "src": "assets/images/gallery/portraits-03.jpg",
+      "cat": "portraits",
+      "alt": "Retrato de estudio dramático, mitad en sombra"
+    },
+    {
+      "src": "assets/images/gallery/portraits-04.jpg",
+      "cat": "portraits",
+      "alt": "Retrato de estudio de joven de pelo rizado"
+    },
+    {
+      "src": "assets/images/gallery/portraits-05.jpg",
+      "cat": "portraits",
+      "alt": "Mujer con gorra sonriendo en luz dorada junto al lago"
+    },
+    {
+      "src": "assets/images/gallery/portraits-06.jpg",
+      "cat": "portraits",
+      "alt": "Mujer en pose de yoga sobre un muelle"
+    },
+    {
+      "src": "assets/images/gallery/portraits-07.jpg",
+      "cat": "portraits",
+      "alt": "Mujer meditando con campanitas en el muelle"
+    },
+    {
+      "src": "assets/images/gallery/portraits-08.jpg",
+      "cat": "portraits",
+      "alt": "Joven con la chaqueta al hombro en un sendero"
+    },
+    {
+      "src": "assets/images/gallery/portraits-09.jpg",
+      "cat": "portraits",
+      "alt": "Joven mostrando un libro con la frase 'He is the light'"
+    },
+    {
+      "src": "assets/images/gallery/portraits-10.jpg",
+      "cat": "portraits",
+      "alt": "Joven de traje frente a un templo de ladrillo"
+    },
+    {
+      "src": "assets/images/gallery/portraits-11.jpg",
+      "cat": "portraits",
+      "alt": "Joven de traje señalando a la cámara"
+    },
+    {
+      "src": "assets/images/gallery/portraits-12.jpg",
+      "cat": "portraits",
+      "alt": "Joven sosteniendo el Libro de Mormón hacia la cámara"
+    },
+    {
+      "src": "assets/images/gallery/portraits-13.jpg",
+      "cat": "portraits",
+      "alt": "Joven mirando la aguja de un templo"
+    },
+    {
+      "src": "assets/images/gallery/graduation-01.jpg",
+      "cat": "graduation",
+      "alt": "Graduado con estola roja entre columnas de mármol"
+    },
+    {
+      "src": "assets/images/gallery/graduation-02.jpg",
+      "cat": "graduation",
+      "alt": "Graduado bajo la cúpula del Capitolio"
+    },
+    {
+      "src": "assets/images/gallery/graduation-03.jpg",
+      "cat": "graduation",
+      "alt": "Graduado de perfil apoyado en una baranda"
+    },
+    {
+      "src": "assets/images/gallery/graduation-04.jpg",
+      "cat": "graduation",
+      "alt": "Graduado de cuerpo completo en el Capitolio"
+    },
+    {
+      "src": "assets/images/gallery/graduation-05.jpg",
+      "cat": "graduation",
+      "alt": "Graduado con diploma frente a un edificio de piedra"
+    },
+    {
+      "src": "assets/images/gallery/graduation-06.jpg",
+      "cat": "graduation",
+      "alt": "Graduado sonriendo bajo árboles en flor"
+    }
+  ]
+}
