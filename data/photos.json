@@ -5,157 +5,157 @@
       "page": "home",
       "label": "Home · Foto principal",
       "src": "assets/images/slots/home-hero.jpg",
-      "alt": "Familia caminando en luz dorada en Utah"
+      "alt": "Familia de cuatro en pasto alto con las montañas de Utah detrás"
     },
     "home-about": {
       "page": "home",
-      "label": "Home · Retrato de Ramiro",
+      "label": "Home · Sobre mí",
       "src": "assets/images/slots/home-about.jpg",
-      "alt": "Retrato de Ramiro, fotógrafo en Utah"
+      "alt": "Niña tomada de la mano de un adulto, a contraluz al atardecer"
     },
     "home-family": {
       "page": "home",
       "label": "Home · Tarjeta Family",
       "src": "assets/images/slots/home-family.jpg",
-      "alt": "Sesión familiar al aire libre en Utah"
+      "alt": "Familia sentada junta en pasto alto de otoño"
     },
     "home-portraits": {
       "page": "home",
       "label": "Home · Tarjeta Portraits",
       "src": "assets/images/slots/home-portraits.jpg",
-      "alt": "Retrato editorial en luz natural"
+      "alt": "Retrato de estudio de una joven de pelo rizado"
     },
     "home-gallery-1": {
       "page": "home",
       "label": "Home · Galería 1",
       "src": "assets/images/slots/home-gallery-1.jpg",
-      "alt": "Retrato familiar cálido en Utah"
+      "alt": "Hermana abrazando a su hermano menor, en blanco y negro"
     },
     "home-gallery-2": {
       "page": "home",
       "label": "Home · Galería 2",
       "src": "assets/images/slots/home-gallery-2.jpg",
-      "alt": "Retrato de pareja en luz dorada"
+      "alt": "Mujer con gorra sonriendo junto al lago en luz dorada"
     },
     "home-gallery-3": {
       "page": "home",
       "label": "Home · Galería 3",
       "src": "assets/images/slots/home-gallery-3.jpg",
-      "alt": "Retrato de maternidad al aire libre"
+      "alt": "Niña con vestido navideño sosteniendo un arbolito"
     },
     "home-gallery-4": {
       "page": "home",
       "label": "Home · Galería 4",
       "src": "assets/images/slots/home-gallery-4.jpg",
-      "alt": "Niños jugando en sesión familiar"
+      "alt": "Niña con moño amarillo sosteniendo libros y una manzana roja"
     },
     "family-hero": {
       "page": "family",
       "label": "Family · Foto principal",
       "src": "assets/images/slots/family-hero.jpg",
-      "alt": "Familia unida en un campo al atardecer en Utah"
+      "alt": "Padres levantando a sus hijos junto al lago en luz dorada"
     },
     "family-story-1": {
       "page": "family",
       "label": "Family · Historia 1",
       "src": "assets/images/slots/family-story-1.jpg",
-      "alt": "Padres abrazando a su hijo en sesión familiar"
+      "alt": "Madre e hija abrazándose en pasto dorado"
     },
     "family-story-2": {
       "page": "family",
       "label": "Family · Historia 2",
       "src": "assets/images/slots/family-story-2.jpg",
-      "alt": "Madre e hija riendo en sesión familiar"
+      "alt": "Padres mirando a su bebé durante la sesión familiar"
     },
     "family-gallery-1": {
       "page": "family",
       "label": "Family · Galería 1",
       "src": "assets/images/slots/family-gallery-1.jpg",
-      "alt": "Retrato familiar en las montañas de Utah"
+      "alt": "Familia de cuatro bajo un árbol amarillo de otoño"
     },
     "family-gallery-2": {
       "page": "family",
       "label": "Family · Galería 2",
       "src": "assets/images/slots/family-gallery-2.jpg",
-      "alt": "Hermanos jugando en el campo"
+      "alt": "Hermano mayor abrazando a su hermanito bebé en el pasto"
     },
     "family-gallery-3": {
       "page": "family",
       "label": "Family · Galería 3",
       "src": "assets/images/slots/family-gallery-3.jpg",
-      "alt": "Familia caminando de la mano al atardecer"
+      "alt": "Niña con vestido ocre de pie en pasto alto, montañas detrás"
     },
     "family-gallery-4": {
       "page": "family",
       "label": "Family · Galería 4",
       "src": "assets/images/slots/family-gallery-4.jpg",
-      "alt": "Retrato familiar en casa, luz natural"
+      "alt": "Padre con su hijo a caballito, ambos riendo"
     },
     "family-gallery-5": {
       "page": "family",
       "label": "Family · Galería 5",
       "src": "assets/images/slots/family-gallery-5.jpg",
-      "alt": "Padre levantando a su bebé en el campo"
+      "alt": "Padres sonriendo con su bebé junto al lago"
     },
     "family-gallery-6": {
       "page": "family",
       "label": "Family · Galería 6",
       "src": "assets/images/slots/family-gallery-6.jpg",
-      "alt": "Familia extendida reunida en Utah"
+      "alt": "Bebé con suéter naranjo sentado entre hojas de otoño"
     },
     "portraits-hero": {
       "page": "portraits",
       "label": "Portraits · Foto principal",
       "src": "assets/images/slots/portraits-hero.jpg",
-      "alt": "Retrato editorial en Salt Lake City"
+      "alt": "Hombre riendo junto al lago al atardecer durante su sesión de retrato"
     },
     "portraits-couples": {
       "page": "portraits",
       "label": "Portraits · Parejas",
       "src": "assets/images/slots/portraits-couples.jpg",
-      "alt": "Pareja caminando de la mano al atardecer"
+      "alt": "Pareja frente a frente bajo hojas amarillas de otoño"
     },
     "portraits-maternity": {
       "page": "portraits",
       "label": "Portraits · Maternidad",
       "src": "assets/images/slots/portraits-maternity.jpg",
-      "alt": "Sesión de maternidad en luz suave"
+      "alt": "Futura mamá con vestido celeste sosteniendo margaritas"
     },
     "portraits-newborn": {
       "page": "portraits",
       "label": "Portraits · Newborn",
       "src": "assets/images/slots/portraits-newborn.jpg",
-      "alt": "Bebé recién nacido descansando en casa"
+      "alt": "Bebé recién nacido durmiendo envuelto en tejido azul"
     },
     "portraits-senior": {
       "page": "portraits",
       "label": "Portraits · Graduación",
       "src": "assets/images/slots/portraits-senior.jpg",
-      "alt": "Retrato de graduación en el Capitolio de Utah"
+      "alt": "Graduado con toga y estola roja entre columnas de mármol en el Capitolio"
     },
     "portraits-gallery-1": {
       "page": "portraits",
       "label": "Portraits · Galería 1",
       "src": "assets/images/slots/portraits-gallery-1.jpg",
-      "alt": "Retrato individual en luz natural"
+      "alt": "Retrato de estudio dramático de un joven, mitad en sombra"
     },
     "portraits-gallery-2": {
       "page": "portraits",
       "label": "Portraits · Galería 2",
       "src": "assets/images/slots/portraits-gallery-2.jpg",
-      "alt": "Retrato de pareja en el centro de Salt Lake City"
+      "alt": "Graduado sonriendo al aire libre bajo árboles en flor"
     },
     "portraits-gallery-3": {
       "page": "portraits",
       "label": "Portraits · Galería 3",
       "src": "assets/images/slots/portraits-gallery-3.jpg",
-      "alt": "Retrato de maternidad en el campo"
+      "alt": "Hombre con polerón blanco apoyado en un poste junto al lago al atardecer"
     },
     "portraits-gallery-4": {
       "page": "portraits",
       "label": "Portraits · Galería 4",
       "src": "assets/images/slots/portraits-gallery-4.jpg",
-      "alt": "Retrato personal con luz dorada"
+      "alt": "Mujer en pose de yoga sobre un muelle junto al lago"
     }
   }
 }
